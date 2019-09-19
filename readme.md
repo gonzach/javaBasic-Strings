@@ -162,6 +162,20 @@ If you just want to build your code without running test. Please use `./gradlew 
        Do you have further questions on this knowledge point?
        - none. 
 
+    8.
+    9.
+    10
+    11. should_reverse_a_string
+      What is the knowledge point of the test? Where is the official document to the knowledge point? 
+         - The knowledge point of the test is to know how to reverse a string through creating new string. 
+       Why the test failed at first?
+       - The test failed because it's returning null value. 
+       Why you corrected the test that way?
+       - I reversed the string using string buffer class. 
+       Do you have further questions on this knowledge point?
+       - none. 
+       
+
 
   
 

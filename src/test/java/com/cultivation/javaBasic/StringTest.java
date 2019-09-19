@@ -150,10 +150,7 @@ class StringTest {
     void should_reverse_a_string() {
         final String original = "123456";
 
-        // TODO: Modify the following code to create new string from original String
-        // <--Start
-        final String reversed = null;
-        // --End-->
+        final String reversed = new StringBuffer(original).reverse().toString();
 
         assertEquals("654321", reversed);
     }
