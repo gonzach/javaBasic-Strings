@@ -39,12 +39,7 @@ class StringTest {
         String copyOfOriginalString = originalString;
         originalString += "Part two.";
 
-        // TODO: Please modify the following line to pass the test.
-        //
-        // It is really easy to pass the test. But you have to tell why.
-        // <--start
         final Optional<Boolean> areSame = Optional.of(false);
-        // --end-->
 
         assertEquals("Part one. Part two.", originalString);
         assertEquals(areSame.get(), originalString == copyOfOriginalString);
@@ -55,10 +50,7 @@ class StringTest {
     void should_taken_string_apart() {
         final String originalString = "Java is great";
 
-        // TODO: Take part of the original string according to expectation.
-        // <--start
         final String partOfString = originalString.substring(5);
-        // --end-->
 
         final String expectedString = "is great";
 
