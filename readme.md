@@ -166,12 +166,33 @@ If you just want to build your code without running test. Please use `./gradlew 
     9.
     10
     11. should_reverse_a_string
-      What is the knowledge point of the test? Where is the official document to the knowledge point? 
+       What is the knowledge point of the test? Where is the official document to the knowledge point? 
          - The knowledge point of the test is to know how to reverse a string through creating new string. 
        Why the test failed at first?
        - The test failed because it's returning null value. 
        Why you corrected the test that way?
        - I reversed the string using string buffer class. 
+       Do you have further questions on this knowledge point?
+       - none. 
+       
+    12. should_compare_string_with_different_cases
+      What is the knowledge point of the test? Where is the official document to the knowledge point? 
+        - The knowledge point of the test is to know how to compare string using cases and comparing string ignoring case.
+      Why the test failed at first?
+      - The test failed because it's returning null value. 
+      Why you corrected the test that way?
+      - actualResultOfEqual is false because it comparing the 2 sting. 
+      - actualResultOfEqualIgnoreCase is true because it comparing the word value and ignoring the case. 
+      Do you have further questions on this knowledge point?
+      - none. 
+      
+     13. should_format_string
+       What is the knowledge point of the test? Where is the official document to the knowledge point? 
+         - The knowledge point of the test is to know how to format the string through assigning variable value. 
+       Why the test failed at first?
+       - The test failed because it's returning null value. 
+       Why you corrected the test that way?
+       - I input the correct ansswer when the string was format. 
        Do you have further questions on this knowledge point?
        - none. 
        

@@ -166,8 +166,8 @@ class StringTest {
 
         // TODO: Please change the value of the following 2 lines to pass the test.
         // <--start
-        Optional<Boolean> actualResultOfEqual = Optional.empty();
-        Optional<Boolean> actualResultOfEqualIgnoreCase = Optional.empty();
+        Optional<Boolean> actualResultOfEqual = Optional.of(false);
+        Optional<Boolean> actualResultOfEqualIgnoreCase = Optional.of(true);
         // --end-->
 
         assertEquals(equalResult, actualResultOfEqual);
@@ -181,10 +181,7 @@ class StringTest {
 
         String text = String.format("Hello, %s. Next year, you will be %d.", name, age);
 
-        // TODO: please modify the following code to pass the test
-        // <--start
-        final String expectedText = null;
-        // --end-->
+        final String expectedText = "Hello, Harry. Next year, you will be 23.";
 
         assertEquals(expectedText, text);
     }
