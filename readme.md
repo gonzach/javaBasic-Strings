@@ -152,7 +152,16 @@ If you just want to build your code without running test. Please use `./gradlew 
       Do you have further questions on this knowledge point?
       - none. 
       
-      
+     7. should_break_string_into_words_customized
+      What is the knowledge point of the test? Where is the official document to the knowledge point? 
+         - The knowledge point of the test is to know how to break string into words using delimiters and put it in array.  
+       Why the test failed at first?
+       - The test failed because it's returning null value. 
+       Why you corrected the test that way?
+       - I used split and delimeter "/" to split the sentence that will be put in the array.  
+       Do you have further questions on this knowledge point?
+       - none. 
+
 
   
 

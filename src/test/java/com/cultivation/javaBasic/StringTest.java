@@ -92,10 +92,7 @@ class StringTest {
     void should_break_string_into_words_customized() {
         final String sentence = "This/is/Mike";
 
-        // TODO: Extract words in the sentence.
-        // <--Start
-        String[] words = null;
-        // --End-->
+        String[] words = sentence.split("/");
 
         assertArrayEquals(new String[] {"This", "is", "Mike"}, words);
     }
