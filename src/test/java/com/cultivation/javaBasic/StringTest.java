@@ -62,10 +62,7 @@ class StringTest {
     void should_taken_string_apart_continued() {
         final String originalString = "Java is great.";
 
-        // TODO: Take part of the original string according to expectation.
-        // <--start
         final String partOfString = originalString.substring(5,7);
-        // --end-->
 
         final String expectedString = "is";
 

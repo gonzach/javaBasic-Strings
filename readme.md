@@ -124,5 +124,23 @@ If you just want to build your code without running test. Please use `./gradlew 
   - It will failed and shows your inputed begin and end index and the exact length of the string. 
   What will happen if the input string is of null reference?
   - It return no value. 
+  
+  5. should_taken_string_apart_continued
+    What is the knowledge point of the test? Where is the official document to the knowledge point? 
+    - The knowledge point of the test is to know how to  use substring. 
+    Why the test failed at first?
+    - The test failed because it's returning null value. 
+    Why you corrected the test that way?
+    - I used substring to get specific word that is same in the expected result. 
+    Do you have further questions on this knowledge point?
+    - none. 
+  ********Additional question in String apart******** 
+    What if the input arguments is out of range of the string?
+    - It return no value. 
+    What will happen if the the starting index is greater than the ending index?
+    - It will failed and shows your inputed begin and end index and the exact length of the string. 
+    What will happen if the input string is of null reference?
+    - It return no value. 
+  
 
  
