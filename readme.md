@@ -88,13 +88,13 @@ If you just want to build your code without running test. Please use `./gradlew 
   Do you have further questions on this knowledge point?
   - none. 
   
- 2. all_modification_method_will_create_new_string
-   What is the knowledge point of the test? Where is the official document to the knowledge point? 
-   - The knowledge point of the test is to know about the behavior of optional list and on how it return value. 
-    And on how the to trim trailing spaces. 
-   - The test failed because it's returning null. 
-   Why you corrected the test that way?
-   - I use Optional.of() because the data type of expected return is in boolean. 
-   Do you have further questions on this knowledge point?
-   - none.  
-   
+2. all_modification_method_will_create_new_string
+ What is the knowledge point of the test? Where is the official document to the knowledge point? 
+ - The knowledge point of the test is to know about the behavior of optional list and on how it return value. 
+  And on how the to trim trailing spaces. 
+ - The test failed because it's returning null. 
+ Why you corrected the test that way?
+ - I use Optional.of() because the data type of expected return is in boolean. 
+ Do you have further questions on this knowledge point?
+ - none.  
+     
