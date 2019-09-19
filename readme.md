@@ -77,3 +77,12 @@ You could run unit tests with the help of IntelliJ. But it is also possible to r
 
 If you just want to build your code without running test. Please use `./gradlew build -x test
 `
+****Answer****
+1. should_be_immutable
+  What is the knowledge point of the test? Where is the official document to the knowledge point? 
+    - The knowledge point of the test is to know about the behavior of optional list and on how it return value. 
+  - The test failed because it's returning null. 
+  Why you corrected the test that way?
+  - I use Optional.of() because the data type of expected return is in boolean. 
+  Do you have further questions on this knowledge point?
+  - none. 
