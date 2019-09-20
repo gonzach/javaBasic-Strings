@@ -2,6 +2,7 @@ package com.cultivation.javaBasic;
 
 import org.junit.jupiter.api.Test;
 
+import java.lang.reflect.Array;
 import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
@@ -105,7 +106,22 @@ class StringTest {
 
         // TODO: Create string using StringBuilder
         // <--Start
-        StringBuilder builder = new StringBuilder();
+       StringBuilder builder = new StringBuilder();
+       for (int i = 1; i < height+1; i++ ) {
+           builder.append("|");
+           for (int j = 0; j < width-1 ; j++) {
+               if ( j < 3 ) {
+                   if ( (i%2) != 0 ) {
+                       builder.append("-");
+                   } else {
+                       builder.append(" ");
+                   }
+               } else {
+                   builder.append("|\n");
+
+               }
+            }
+        }
         // --End-->
 
         final String expected =
@@ -124,6 +140,9 @@ class StringTest {
         int sum = 0;
         // TODO: Write some code to calculate the checksum of the string. The checksum is the sum of each string char.
         // <--Start
+        for(int i=0; i<=text.length()-1; i++) {
+            sum+= text.charAt(i);
+        }
         // --End-->
 
         assertEquals(3655, sum);
@@ -139,7 +158,28 @@ class StringTest {
         // こ - U+3053
         // れ - U+308c
         // <--Start
-        final String actual = null;
+        String[] arr = {"U+306a", "U+306b", "U+3053", "U+308c"};
+       for ( int i =0; i < arr.length; i++ ) {
+            switch(arr[i]) {
+                case "U+306a":
+                    arr[i]="な";
+                    break;
+                case "U+306b":
+                    arr[i]="に";
+                    break;
+                case "U+3053":
+                    arr[i]="こ";
+                    break;
+                case "U+308c":
+                    arr[i]="れ";
+                    break;
+            }
+        }
+        StringBuilder stringBuilder = new StringBuilder();
+        for (int i = 0; i < arr.length; i++) {
+            stringBuilder.append(arr[i]);
+        }
+        final String actual  = stringBuilder.toString();
         // --End-->
 
         assertEquals(expected, actual);

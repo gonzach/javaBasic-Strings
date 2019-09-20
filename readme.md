@@ -162,9 +162,42 @@ If you just want to build your code without running test. Please use `./gradlew 
        Do you have further questions on this knowledge point?
        - none. 
 
-    8.
-    9.
-    10
+    8. should_create_ascii_art
+      What is the knowledge point of the test? Where is the official document to the knowledge point? 
+       -To create ascii art using StringBuilder
+       Why the test failed at first?
+       - It is failed due to it didn't satisfy the output of expected.
+       Why you corrected the test that way?
+       - I put 2 loop for the height and width of the. 
+         I is for the first line 1. 
+         J is for the width of line 1. 
+         J will act as a constructor of the line 1. 
+         I put checking if this is for line 1, and also checking if that is the last item to put in the line. 
+       Do you have further questions on this knowledge point?
+       - none. 
+    
+    9. should_calculate_checksum_of_a_string
+     What is the knowledge point of the test? Where is the official document to the knowledge point? 
+       - To know sum string using charAt. 
+       Why the test failed at first?
+       - It is failed due to it didn't satisfy the output of expected.
+       Why you corrected the test that way?
+       - I used character at to specified indec of the string and sum it. 
+       Do you have further questions on this knowledge point?
+       - none. 
+           
+    10. should_convert_unicode_escape
+     What is the knowledge point of the test? Where is the official document to the knowledge point? 
+       - To know how ways on how to convert unicode escape. 
+       Why the test failed at first?
+       - It is failed due to it didn't satisfy the output of expected.
+       Why you corrected the test that way?
+       - I put actual string  and the equivalent value in array. 
+         then convert the array in string using String builder.  
+       Do you have further questions on this knowledge point?
+       - none. 
+           
+    
     11. should_reverse_a_string
        What is the knowledge point of the test? Where is the official document to the knowledge point? 
          - The knowledge point of the test is to know how to reverse a string through creating new string. 
@@ -195,6 +228,8 @@ If you just want to build your code without running test. Please use `./gradlew 
        - I input the correct ansswer when the string was format. 
        Do you have further questions on this knowledge point?
        - none. 
+       
+       
        
 
 
